@@ -31,7 +31,6 @@
     width: 180vh;
     background-color:#d3d3d3;
     height: 3px;
-    margin-top: 170px;
 }
 #linha-2{  
     margin-top: 10px;
@@ -46,7 +45,7 @@
 .text-esquerda li {
     list-style: none;
     padding:2px;
-}
+    }
 .text-esquerda li i:before{
     margin-right: 15px;
 }
