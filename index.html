@@ -5,70 +5,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Curriculo</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-primary">
-        <div class="container">
-            <div class="col-md-6">
-                <img class="foto-perfil float-right" src="img/img.jpeg" alt="">
-    </nav>
-    <h1 class="title-foto text-center">Bruno Gomes Czeck</h1>
-    <h3 class="title-sub text-center">Desenvolvedor Junior</h3>
-    </div>
-</div>
-    <div class="col-6">
-        <div id="linha-1" class="d-flex justify-content-center"></div>
-            <div id="linha-2"></div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="text-esquerda">
-        <h1 class="title">Contatos</h1>
-            <li><i class="fa fa-map-marker" aria-hidden="true">Curitiba - Paraná</li></i>
-            <li><i class="fa fa-envelope-o" aria-hidden="true">brunoczeck@hotmail.com</i></li>
-            <li><i class="fa fa-whatsapp" aria-hidden="true">(41) 99590-9910</i></li>
-            <li><i class="fa fa-linkedin-square" aria-hidden="true">https://www.linkedin.com/in/bruno-czeck-bb7757183/</i></li>
-            <li><i class="fa fa-github-alt" aria-hidden="true">www.github.com/BrunoCzeck</i></li>
-        </div>
-        <div class="perfil">
-            <h2 class="title">Perfil Profissional</h2>
-            <p>
-                Desenvolvedor Junior Web atualmente trabalhando com a linguagem PHP
-                porem, tenho conhecimento em HTML, CSS, Bootstrap, XML, Json, POO. Tenho alguns projetos
-                no GitHub qualquer duvida o mesmo pode ser visualizado no link acima.
-            </p>
-        </div>
-        <div class="habilidades">
-            <h2 class="title">Habilidades</h2>
+    <div class="container">
+        <!-- Esquerda do conteudo -->
+        <div class="esquerda">
+            <div class="imgProfile">
+                <img src="img/img.jpeg" alt="imagem do profile">
+                <h2>Bruno Gomes Czeck<br><span>Web Developer</span></h2>
+            </div>
+            <hr class="linha">
+            </hr>
             <ul>
-                <li><i class="fa fa-file-code-o" aria-hidden="true">MySQL</i></li>
-                <li><img class="icone" src="icon/php-brands.svg" alt="">PHP</li>
-                <li><i class="fa fa-github" aria-hidden="true">GitHub</i></li>
+                <label for="contatos">Contatos</label>
+                <li><a href="https://wa.me/5541995909910"><img class="icon"
+                            src="https://img.icons8.com/ios/50/000000/whatsapp--v1.png" />41 99590-9910</a></li>
+                <li><a href="mailto:brunoczeck@hotmail.com"><img class="icon"
+                            src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-email-interface-kiranshastry-lineal-kiranshastry.png" />brunoczeck@hotmail.com</a>
+                </li>
+                <li><a href="https://www.facebook.com/profile.php?id=100005646822292"><img class="icon"
+                            src="https://img.icons8.com/ios/50/000000/facebook--v1.png" />Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/bruno-czeck-bb7757183"><img class="icon"
+                            src="https://img.icons8.com/ios/50/000000/linkedin.png" />Linkedin/BrunoCzeck</a></li>
+                <li class="li-location"><img class="icon"
+                        src="https://img.icons8.com/ios-filled/50/000000/marker.png" />Curitiba/Paraná</li>
             </ul>
-            <ul class="lista-2">
-                <li><img class="icone" src="icon/bootstrap-brands.svg">Bootstrap</li>
-                <li><i class="fa fa-html5" aria-hidden="true">HTML</i></li>
-                <li><i class="fa fa-css3" aria-hidden="true">CSS</i></li>
-                <li><img class="icone" src="icon/js-brands.svg">JavaScript - Iniciante</li>
+            <ul class="educacao">
+                <label for="educacao">Educação</label>
+                <li>2018-2021</li>
+                <h3>Uni Santa Cruz<br><span>Bacharelado em Sistemas de Informação » 7° Período</span></h3>
+                <li>2012-2013</li>
+                <h3>Iditec<br><span>Web Design.</span></h3>
             </ul>
+            <div class="linguagem">
+                <h3>Linguagem</h3>
+                <ul>
+                    <li>
+                        <span class="ingles">Inglês</span>
+                        <span class="porcentagem">
+                            <div></div>
+                        </span>
+                    </li>
+                </ul>
+                <h3>Informações</h3>
+                <ul>
+                    <li class="git-link"><a href="https://github.com/BrunoCzeck"><img class="icon" src="https://img.icons8.com/ios/50/000000/github--v1.png"/>
+                        GitHub/BrunoCzeck</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="text-direita">
-        <div class="col-md-12">
-            <h1 class="text-right">Experiencia</h1>
-            <p class="text-left">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, error eaque facere facilis ipsa at
-                a optio praesentium fugiat, quisquam iusto et voluptates magnam possimus, accusamus impedit quo? Quam,
-                vitae.
+
+        <!-- Direita do conteudo -->
+        <div class="direita">
+            <h1>Profile</h1>
+            <p>
+                Meu nome e Bruno Gomes Czeck sou Desenvolvedor Júnior
+                e estou procurando uma oportunidade para crescimento profissional, atualmente
+                trabalho com HTML, CSS, Bootstrap, Javascript e PHP.<br><br>
+                Trabalho a 4 anos na área dentre eles 3 anos foi como Analista de Suporte
+                e 6 meses como Desenvolvedor procuro oportunidades para crescer e expandir meus conhecimentos
+                na área de Desenvolvimento.
             </p>
+            <h1>Experiências</h1>
+            <div class="about">
+                <div class="box">
+                    <div class="company-year">
+                        <h5>2021 – 2022</h5>
+                        <h5>Campo Tv</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Desenvolvedor Júnior » PHP. (6 Meses)</h4>
+                        <p>
+                            <b>Principais Responsabilidades</b>: Desenvolvimento de Softwares, Manutenção de plataforma,
+                            acompanhar entregas após o lançamento e resolver problemas relacionados as mesmas, integrar
+                            o sistema com novos componentes de software, conhecimento em HTML,CSS, Bootstrap, PHP 5.3
+                            pra cima, XML, Json
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <div class="box">
+                    <div class="company-year">
+                        <h5>2019 - 2021</h5>
+                        <h5>Campo Tv</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Analista de Suporte » Pleno.</h4>
+                        <p>
+                            <b>Principais Responsabilidades</b>: Instalação e atualização do sistema, atendimento remoto,
+                            registro e acompanhamento de Ticket (Movidesk), visita técnica, cotação de mercadoria e
+                            identificação de problemas de rede.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <h3>Qualificações</h3>
+                <ul>
+                    <li>
+                        <span class="html">PHP</span>
+                        <span class="porcentagem">
+                        <div style="width: 80%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="html">HTML</span>
+                        <span class="porcentagem">
+                        <div style="width: 70%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="html">CSS</span>
+                        <span class="porcentagem">
+                        <div style="width: 70%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="html">Javascript</span>
+                        <span class="porcentagem">
+                        <div style="width: 20%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="html">Bootstrap</span>
+                        <span class="porcentagem">
+                        <div style="width: 50%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
